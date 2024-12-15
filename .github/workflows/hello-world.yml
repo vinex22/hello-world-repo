@@ -12,4 +12,10 @@ jobs:
     steps:
       - name: Echo text  # Step name
         run: echo "Hello, world!"  # Command to run
+      # Add a step to list directory and files
+
+      - name: List files and folders
+        run: ls -la
+      
+      
 
